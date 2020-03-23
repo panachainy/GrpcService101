@@ -23,5 +23,10 @@ namespace GrpcService101
                 Message = "Hello " + request.Name
             });
         }
+
+        public override Task<HelloReply> SayHello2(HelloRequest request, ServerCallContext context)
+        {
+            return base.SayHello2(request, context);
+        }
     }
 }

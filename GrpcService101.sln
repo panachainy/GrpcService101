@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService101", "GrpcService101\GrpcService101.csproj", "{AB9E10C9-62E7-4B05-B89D-75D9BA2D1E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService101", "GrpcService101\GrpcService101.csproj", "{AB9E10C9-62E7-4B05-B89D-75D9BA2D1E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClient", "ConsoleAppClient\ConsoleAppClient.csproj", "{519F8BF5-DFD9-4A15-BB04-0CC9F9F3AFCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AB9E10C9-62E7-4B05-B89D-75D9BA2D1E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9E10C9-62E7-4B05-B89D-75D9BA2D1E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9E10C9-62E7-4B05-B89D-75D9BA2D1E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519F8BF5-DFD9-4A15-BB04-0CC9F9F3AFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519F8BF5-DFD9-4A15-BB04-0CC9F9F3AFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519F8BF5-DFD9-4A15-BB04-0CC9F9F3AFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519F8BF5-DFD9-4A15-BB04-0CC9F9F3AFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
